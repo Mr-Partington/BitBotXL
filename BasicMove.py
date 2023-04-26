@@ -56,7 +56,7 @@ while True:
    if button_a.is_pressed():
        sleep(2000)
        #Go forward for 0.5 seconds
-       #forward(0.5)
+       forward(0.5)
        #Spin left for 0.5 seconds
        spinleft(0.5)
        #Spin right for 0.5 seconds
