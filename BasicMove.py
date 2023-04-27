@@ -54,6 +54,7 @@ def spinright(time):
 #Test Code that runs when A button is pressed
 while True:
    if button_a.is_pressed():
+       #Wait for 2 seconds to allow you to get your hand out the way!
        sleep(2000)
        #Go forward for 0.5 seconds
        forward(0.5)
